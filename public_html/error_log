@@ -1,0 +1,207 @@
+[17-Oct-2018 19:40:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'SuporteController' not found in /home/u170967265/public_html/controllers/RouterController.php:38
+Stack trace:
+#0 /home/u170967265/public_html/index.php(27): RouterController->process(Array)
+#1 {main}
+  thrown in /home/u170967265/public_html/controllers/RouterController.php on line 38
+[17-Oct-2018 22:41:14 UTC] PHP Notice:  Undefined variable: a in /home/u170967265/public_html/index.php on line 4
+[17-Oct-2018 19:42:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'SuporteController' not found in /home/u170967265/public_html/controllers/RouterController.php:38
+Stack trace:
+#0 /home/u170967265/public_html/index.php(22): RouterController->process(Array)
+#1 {main}
+  thrown in /home/u170967265/public_html/controllers/RouterController.php on line 38
+[17-Oct-2018 19:43:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'SuporteController' not found in /home/u170967265/public_html/controllers/RouterController.php:38
+Stack trace:
+#0 /home/u170967265/public_html/index.php(22): RouterController->process(Array)
+#1 {main}
+  thrown in /home/u170967265/public_html/controllers/RouterController.php on line 38
+[18-Oct-2018 14:04:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'CadastrarUsuarioController' not found in /home/u170967265/public_html/controllers/RouterController.php:38
+Stack trace:
+#0 /home/u170967265/public_html/index.php(22): RouterController->process(Array)
+#1 {main}
+  thrown in /home/u170967265/public_html/controllers/RouterController.php on line 38
+[18-Oct-2018 14:05:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'CadastrarUsuarioController' not found in /home/u170967265/public_html/controllers/RouterController.php:38
+Stack trace:
+#0 /home/u170967265/public_html/index.php(22): RouterController->process(Array)
+#1 {main}
+  thrown in /home/u170967265/public_html/controllers/RouterController.php on line 38
+[18-Oct-2018 14:11:54 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 14 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 14
+[18-Oct-2018 14:42:07 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 14 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 14
+[18-Oct-2018 14:42:21 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 14 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 14
+[18-Oct-2018 14:49:17 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 15 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 15
+[18-Oct-2018 14:49:37 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 15 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 15
+[18-Oct-2018 14:49:55 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 15 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 15
+[18-Oct-2018 15:16:00 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 26 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 26
+[18-Oct-2018 15:16:00 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home/u170967265/public_html/models/CadastrarUsuario.php on line 49
+[18-Oct-2018 15:16:54 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 26 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 26
+[18-Oct-2018 15:20:37 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 27 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 27
+[18-Oct-2018 15:21:00 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 27 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 27
+[18-Oct-2018 15:23:56 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:24:23 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:24:45 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:24:53 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:25:26 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:26:31 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:27:09 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:28:27 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:31:52 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:32:27 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:32:37 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:33:37 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:33:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Db::queryAlljjkj() in /home/u170967265/public_html/models/CadastrarUsuario.php:6
+Stack trace:
+#0 /home/u170967265/public_html/controllers/CadastrarUsuarioController.php(20): CadastrarUsuario->verifica('Robison Crusoe')
+#1 /home/u170967265/public_html/controllers/RouterController.php(44): CadastrarUsuarioController->process(Array)
+#2 /home/u170967265/public_html/index.php(22): RouterController->process(Array)
+#3 {main}
+  thrown in /home/u170967265/public_html/models/CadastrarUsuario.php on line 6
+[18-Oct-2018 15:34:01 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:51:58 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:54:33 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:55:36 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:55:36 America/Sao_Paulo] PHP Notice:  Undefined variable: login in /home/u170967265/public_html/models/CadastrarUsuario.php on line 5
+[18-Oct-2018 15:55:36 America/Sao_Paulo] PHP Notice:  Undefined variable: senha in /home/u170967265/public_html/models/CadastrarUsuario.php on line 5
+[18-Oct-2018 15:56:28 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:57:44 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:58:42 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:58:54 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 15:59:09 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:00:21 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:01:10 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:02:08 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:04:08 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:07:28 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:08:51 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:08:54 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:08:59 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:09:33 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:10:10 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:10:22 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:11:00 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 28 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 28
+[18-Oct-2018 16:11:29 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 27 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 27
+[18-Oct-2018 16:11:51 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 27 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 27
+[18-Oct-2018 16:12:16 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 27 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 27
+[18-Oct-2018 16:12:47 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 27 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 27
+[18-Oct-2018 16:12:59 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 27 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 27
+[18-Oct-2018 16:16:15 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 27 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 27
+[18-Oct-2018 16:16:21 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 27 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 27
+[18-Oct-2018 16:16:53 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 27 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 27
+[18-Oct-2018 16:17:33 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 27 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 27
+[18-Oct-2018 16:22:03 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 31 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 31
+[18-Oct-2018 16:22:10 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 31 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 31
+[18-Oct-2018 16:22:56 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 35 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 35
+[18-Oct-2018 16:23:23 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 35 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 35
+[18-Oct-2018 16:23:29 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 35 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 35
+[18-Oct-2018 16:23:39 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 35 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 35
+[18-Oct-2018 16:32:38 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 35 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 35
+[18-Oct-2018 16:33:16 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 43 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 43
+[18-Oct-2018 16:33:16 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/u170967265/public_html/models/Db.php:66
+Stack trace:
+#0 /home/u170967265/public_html/models/Db.php(66): PDO->prepare('INSERT INTO usu...')
+#1 /home/u170967265/public_html/models/CadastrarUsuario.php(11): Db::queryCount('INSERT INTO usu...', Array)
+#2 /home/u170967265/public_html/controllers/CadastrarUsuarioController.php(23): CadastrarUsuario->cadastrar('matheus', 'suporteq', 'suporteq', '0')
+#3 /home/u170967265/public_html/controllers/RouterController.php(44): CadastrarUsuarioController->process(Array)
+#4 /home/u170967265/public_html/index.php(22): RouterController->process(Array)
+#5 {main}
+  thrown in /home/u170967265/public_html/models/Db.php on line 66
+[18-Oct-2018 16:36:22 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 43 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 43
+[18-Oct-2018 16:37:38 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 44 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 44
+[18-Oct-2018 16:39:04 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 44 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 44
+[18-Oct-2018 16:46:47 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 45 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 45
+[18-Oct-2018 16:49:00 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 45 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 45
+[18-Oct-2018 16:49:47 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 45 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 45
+[18-Oct-2018 17:24:20 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 45 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 45
+[18-Oct-2018 17:24:50 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 45 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 45
+[18-Oct-2018 17:37:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ListarUsuarios::listarUsuarios() in /home/u170967265/public_html/controllers/OmniSmartController.php:16
+Stack trace:
+#0 /home/u170967265/public_html/controllers/RouterController.php(44): OmniSmartController->process(Array)
+#1 /home/u170967265/public_html/index.php(22): RouterController->process(Array)
+#2 {main}
+  thrown in /home/u170967265/public_html/controllers/OmniSmartController.php on line 16
+[18-Oct-2018 17:38:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ListarUsuarios::listarUsuarios() in /home/u170967265/public_html/controllers/OmniSmartController.php:16
+Stack trace:
+#0 /home/u170967265/public_html/controllers/RouterController.php(44): OmniSmartController->process(Array)
+#1 /home/u170967265/public_html/index.php(22): RouterController->process(Array)
+#2 {main}
+  thrown in /home/u170967265/public_html/controllers/OmniSmartController.php on line 16
+[18-Oct-2018 17:39:47 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u170967265_help.usuarios' doesn't exist in /home/u170967265/public_html/models/Db.php:55
+Stack trace:
+#0 /home/u170967265/public_html/models/Db.php(55): PDO->prepare('SELECT * FROM u...')
+#1 /home/u170967265/public_html/models/ListarUsuarios.php(4): Db::queryAll('SELECT * FROM u...')
+#2 /home/u170967265/public_html/controllers/OmniSmartController.php(16): ListarUsuarios->listar()
+#3 /home/u170967265/public_html/controllers/RouterController.php(44): OmniSmartController->process(Array)
+#4 /home/u170967265/public_html/index.php(22): RouterController->process(Array)
+#5 {main}
+  thrown in /home/u170967265/public_html/models/Db.php on line 55
+[18-Oct-2018 17:48:49 America/Sao_Paulo] PHP Notice:  Undefined index: nivel in /home/u170967265/public_html/controllers/OmniSmartController.php on line 25
+[18-Oct-2018 17:48:49 America/Sao_Paulo] PHP Notice:  Undefined index: nivel in /home/u170967265/public_html/controllers/OmniSmartController.php on line 29
+[18-Oct-2018 19:53:37 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 45 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 45
+[18-Oct-2018 19:55:04 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 45 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 45
+[18-Oct-2018 21:10:46 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 45 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 45
+[19-Oct-2018 20:08:32 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 45 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 45
+[29-Oct-2018 18:20:59 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 20
+[29-Oct-2018 18:23:26 America/Sao_Paulo] PHP Notice:  Undefined variable: result in /home/u170967265/public_html/views/omnismart.phtml on line 38
+[29-Oct-2018 18:24:18 America/Sao_Paulo] PHP Notice:  Undefined variable: lista in /home/u170967265/public_html/views/omnismart.phtml on line 38
+[29-Oct-2018 18:24:19 America/Sao_Paulo] PHP Notice:  Undefined variable: lista in /home/u170967265/public_html/views/omnismart.phtml on line 38
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:26:46 America/Sao_Paulo] PHP Notice:  Undefined variable: lista in /home/u170967265/public_html/views/omnismart.phtml on line 38
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u170967265/public_html/controllers/OmniSmartController.php on line 21
+[29-Oct-2018 18:27:28 America/Sao_Paulo] PHP Notice:  Undefined variable: lista in /home/u170967265/public_html/views/omnismart.phtml on line 38
+[29-Oct-2018 18:27:52 America/Sao_Paulo] PHP Notice:  Undefined variable: lista in /home/u170967265/public_html/views/omnismart.phtml on line 38
+[29-Oct-2018 18:28:17 America/Sao_Paulo] PHP Notice:  Undefined variable: lista in /home/u170967265/public_html/views/omnismart.phtml on line 38
+[29-Oct-2018 18:28:57 America/Sao_Paulo] PHP Notice:  Undefined variable: lista in /home/u170967265/public_html/views/omnismart.phtml on line 38
+[29-Oct-2018 18:30:30 America/Sao_Paulo] PHP Notice:  Undefined variable: lista in /home/u170967265/public_html/views/omnismart.phtml on line 38
+[29-Oct-2018 18:30:51 America/Sao_Paulo] PHP Notice:  Undefined variable: lista in /home/u170967265/public_html/views/omnismart.phtml on line 38
+[29-Oct-2018 18:32:02 America/Sao_Paulo] PHP Notice:  Undefined variable: lista in /home/u170967265/public_html/views/omnismart.phtml on line 38
+[29-Oct-2018 18:33:51 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 45 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 45
+[29-Oct-2018 18:44:03 America/Sao_Paulo] PHP Warning:  Unterminated comment starting line 45 in /home/u170967265/public_html/controllers/CadastrarUsuarioController.php on line 45
+[29-Oct-2018 20:54:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'SuporteController' not found in /home/u170967265/public_html/controllers/RouterController.php:38
+Stack trace:
+#0 /home/u170967265/public_html/index.php(22): RouterController->process(Array)
+#1 {main}
+  thrown in /home/u170967265/public_html/controllers/RouterController.php on line 38
+[31-Oct-2018 20:50:09 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/u170967265/public_html/views/omnismart.phtml on line 183
+[31-Oct-2018 20:50:14 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/u170967265/public_html/views/omnismart.phtml on line 183
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198
+[01-Nov-2018 21:25:18 America/Sao_Paulo] PHP Notice:  Undefined index: Senha in /home/u170967265/public_html/views/omnismart.phtml on line 198

@@ -1,0 +1,18 @@
+<?php
+if(isset($_GET['e']))
+{
+    if($_GET['e']==2){
+        echo "Departamento cadastrado com sucesso !";
+    }
+}
+
+
+?>
+<form method = "post" action = "cadastrar-departamento">
+       Nome:<br>
+       <input type="text" name="nome"><br>
+       Descricao:<br>
+       <textarea rows="4" cols="50" name="txtDescricao">
+       </textarea> 
+      <input type = "submit" value = "Enviar">
+</form>

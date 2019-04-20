@@ -1,0 +1,55 @@
+<br><br><br>
+<div class="page-header">
+<div class="container">
+   <div class="row">
+      <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+         <div align="center">
+            <?php 
+               if(isset($_GET['e'])){
+                   if($_GET['e'] == 1){
+                     echo "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                     <strong>Dados Inválidos.</strong>
+                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                     <span aria-hidden='true'>&times;</span>
+                     </button>
+                     </div>";
+                   }
+                 }
+               ?>
+         </div>
+         <br>
+         <div class="card card-login">
+            <form class="form" method="POST" action="acesso" autocomplete="off">
+               <div class="card-header card-header-blue text-center">
+                  <h4 class="card-title">Login</h4>
+               </div>
+               <br>
+               <div class="card-body">
+                  <div class="input-group">
+                     <div class="input-group-prepend">
+                        <span class="input-group-text">
+                        <i class="material-icons">mail</i>
+                        </span>
+                     </div>
+                     <input type="text" class="form-control" name="email" id="email" minlength="5" tabindex="1" placeholder="Login..." required />
+                  </div>
+                  <div class="input-group">
+                     <div class="input-group-prepend">
+                        <span class="input-group-text">
+                        <i class="material-icons">lock</i>
+                        </span>
+                     </div>
+                     <input type="password" class="form-control" name="senha" id="senha" tabindex="2" minlength="5" placeholder="Senha..." required />
+                  </div>
+               </div>
+               <br><br>
+               <div class="text-center">
+                  <button type="submit" tabindex="3" class="btn btn-blue btn-round">
+                  <i class="material-icons">verified_user</i> Login
+                  </button>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+</div>

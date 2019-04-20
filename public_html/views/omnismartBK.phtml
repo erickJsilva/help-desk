@@ -1,0 +1,262 @@
+<section>
+   <!--  Todos os arquivos das views serão carregados aqui  -->
+   <!-- Card-de-pesquisa -->
+   <div class="col-md-3  pull-right">
+      <div class="container" >
+         <div align="center">
+         </div>
+      </div>
+   </div>
+   <br><br>
+   <div class="container-fluid">
+      <div class="col-md-12">
+         <div class="card">
+            <div class="card-header card-header-text cor-azul" align="center">
+               <div class="card-text">
+                  <h4 class="card-title">Suporte</h4>
+                  <div class="container">
+                     <div class="row">
+                         
+                        <div class="col-md-6 col-sm-12 pull-right" align="right">
+                           <button type="submit" class="btn btn-blue ci btn-round" data-toggle="modal" data-target="#cadastrar">
+                           <i class="material-icons">domain</i> Departamento
+                           </button>
+                        </div>
+                        <div class="col-md-6 col-sm-12 pull-right" align="left">
+                           <button type="submit" class="btn btn-blue btn-round" data-toggle="modal" data-target="#consulta">
+                           <i class="material-icons">people_outline</i> Usuarios
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <form action="consultar" method="post">
+               <div class="card-body">
+                  
+               </div>
+            </form>
+         </div>
+         <div align="center">
+            <a href="sair" class="btn btn-blue btn-fab btn-fab-mini btn-round">
+            <i class="material-icons">exit_to_app</i>
+            </a>
+            <p>Sair</p>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- Modal departamento-->
+<br>
+  
+  
+<div class="modal fade" id="cadastrar" tabindex="-1" role="dialog" aria-labelledby="cadastrar" aria-hidden="true">
+    <div class="modal-dialog modal-login" role="document">
+        <div class="modal-content">
+            <div class="card card-signup card-plain">
+                <div class="modal-header">
+                  <div class="card-header card-header-primary text-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                      <i class="material-icons">clear</i>
+                    </button>
+
+                    <h4 class="card-title">Cadastrar</h4>
+                  </div>
+                </div>
+                <div class="modal-body">
+                    
+                    <form class="form" method="POST" action="cadastrar-usuario">
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4">Nome</label>
+                              <input type="text" class="form-control" name="txtNome" id="inputEmail4" placeholder="Nome">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4">Login</label>
+                              <input type="text" class="form-control" name="txtLogin" id="inputPassword4" placeholder="Login">
+                            </div>
+                          </div>
+                          <div class="form-row">
+                     <div class="form-group col-md-6">
+                      <label for="inputPassword4">Password</label>
+                      <input type="password" class="form-control" name="txtSenha" id="inputPassword4" placeholder="Password">
+                    </div>
+                     <div class="form-group col-md-6">
+                          <label for="inputState">State</label>
+                          <select id="inputState" class="form-control" name="sltNivel">
+                            <option class="dropdown-item" value="">Nivel de usuario</option> 
+                            <option class="dropdown-item" value="0">Usuario Omni</option>  
+                            <option class="dropdown-item" value="1">Usuario Suporte</option>  
+                            <option class="dropdown-item" value="2">Usuario Cliente</option>
+                          </select>
+                        </div>  
+                        </div>
+                    </form>
+                    
+            <div style="background:#fff;border-radius:10px;">
+               <table class="table">
+                  <thead>
+                     <tr>
+                        <th class="text-center">#ID</th>
+                        <th>Nome</th>
+                        <th>Login</th>
+                        <th class="text-right">Nivel do usuario</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <?php 
+                        $lista=new ListarUsuarios();
+                        $result=$lista->listar();
+                    ?>
+                  </tbody>
+               </table>
+            </div>
+            <?php 
+               if(isset($_GET['e']))
+               {
+                   $e=$_GET['e'];
+                   if($e=='2'){
+                       echo"cadastrado com sucesso!   ";
+                   }
+               }
+               ?>
+                        </div>
+                    
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <input class="btn btn-primary" value="Cadastrar" type="submit">
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Usuario-->
+<div class="modal fade" id="consulta" tabindex="-1" role="dialog" aria-labelledby="consulta" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <div class="modal-header modal-center">
+             
+            <!-- Table real-->
+            <div style="background:#fff;border-radius:10px;">
+               <table class="table">
+                  <thead>
+                     <tr>
+                        <th class="text-center">#ID</th>
+                        <th>Nome</th>
+                        <th>Login</th>
+                        <th class="text-right">Nivel do usuario</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <?php 
+                        $lista=new ListarUsuarios();
+                        $result=$lista->listar();
+                         foreach ($result as $value) {
+                        ?>
+                     <tr>
+                        <td class="text-center"><?php print_r($value['id_usuario']);?></td>
+                        <td><?php print_r($value['nome']);?></td>
+                        <td><?php print_r($value['login']);?></td>
+                        <td class="text-right"><?php 
+                           if($value['nivel_user']==0){echo"Usuário Omni";}
+                           if($value['nivel_user']==1){echo"Usuário Suporte";}
+                           if($value['nivel_user']==2){echo"Usuário Cliente";}
+                           if($value['nivel_user']==-1){echo"Usuário Desativado";}
+                           ?></td>
+                        <td class="td-actions text-right">
+                           <button type="button" rel="tooltip" class="btn btn-info">
+                           <i class="material-icons">person</i>
+                           </button>
+                           <button type="button" rel="tooltip" class="btn btn-info">
+                           <a href="alterar-usuarios?id=<?php print_r($value['id_usuario']); ?>"> <i class="material-icons">edit</i></a>
+                           </button>
+                           <button type="button" rel="tooltip" class="btn btn-info">
+                           <a href=""></a><i class="material-icons">close</i></a>
+                           </button>
+                        </td>
+                     </tr>
+                     <?php  } ?>
+                  </tbody>
+               </table>
+            </div>
+            <?php 
+               if(isset($_GET['e']))
+               {
+                   $e=$_GET['e'];
+                   if($e=='2'){
+                       echo"cadastrado com sucesso!   ";
+                   }
+               }
+               ?>
+             
+<!--<section>-->
+<!--  Todos os arquivos das views serão carregados aqui  -->
+<!--        <br><br><br>-->
+<!--<div class="page-header">-->
+<!--<div class="container">-->
+<!--   <div class="row">-->
+<!--      <div class="col-lg-4 col-md-6 ml-auto mr-auto">-->
+<!--         <div align="center">-->
+<!--                     </div>-->
+<!--         <br>-->
+<!--         <div class="card card-login">-->
+<!--            <form class="form" method="POST" action="acesso" autocomplete="off">-->
+<!--               <div class="card-header card-header-blue text-center">-->
+<!--                  <h4 class="card-title">Login</h4>-->
+<!--               </div>-->
+<!--               <br>-->
+<!--               <div class="card-body">-->
+<!--                  <div class="input-group">-->
+<!--                     <div class="input-group-prepend">-->
+<!--                        <span class="input-group-text">-->
+<!--                        <i class="material-icons">mail</i>-->
+<!--                        </span>-->
+<!--                     </div>-->
+<!--                     <input type="text" class="form-control" name="email" id="email" minlength="5" tabindex="1" placeholder="Login..." required />-->
+<!--                  </div>-->
+<!--                  <div class="input-group">-->
+<!--                     <div class="input-group-prepend">-->
+<!--                        <span class="input-group-text">-->
+<!--                        <i class="material-icons">lock</i>-->
+<!--                        </span>-->
+<!--                     </div>-->
+<!--                     <input type="password" class="form-control" name="senha" id="senha" tabindex="2" minlength="5" placeholder="Senha..." required />-->
+<!--                  </div>-->
+<!--               </div>-->
+<!--               <br><br>-->
+<!--               <div class="text-center">-->
+<!--                  <button type="submit" tabindex="3" class="btn btn-blue btn-round">-->
+<!--                  <i class="material-icons">verified_user</i> Suporte-->
+<!--                  </button>-->
+<!--               </div>-->
+<!--            </form>-->
+<!--         </div>-->
+<!--      </div>-->
+<!--   </div>-->
+<!--</div>-->
+            <!-- Cadastro -->   
+            <!--<div>-->
+            <!--   <form action="cadastrar-usuario" method="POST">-->
+            <!--      <label>Cadastro de usúario</label>-->
+            <!--      <br>-->
+            <!--      <input type="text" placeholder="Nome" name="txtNome">-->
+            <!--      <br>-->
+            <!--      <input type="text" placeholder="Login" name="txtLogin">-->
+            <!--      <br>-->
+            <!--      <input type="text" placeholder="Senha" name="txtSenha">-->
+            <!--      <br>-->
+            <!--      <label for="txtNivel"> Escolha o nível do usuario </label>-->
+            <!--      <br>-->
+            <!--      <select name="sltNivel" id="">-->
+            <!--         <option value=""></option>-->
+            <!--         <option value="0">Usuário do nível Omni </option>-->
+            <!--         <option value="1">Usuário do nível Suporte</option>-->
+            <!--         <option value="2">Usuário do nível problema</option>-->
+            <!--      </select>-->
+            <!--      <br>-->
+            <!--      <input type="submit" value="Enviar">-->
+            <!--   </form>-->
+            <!--</div>-->
+<!--    </section>-->

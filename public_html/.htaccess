@@ -1,0 +1,12 @@
+# Liga a possibilidade de redirecionar
+RewriteEngine On
+
+# Condições se não for um arquivo ou diretorio
+RewriteCond %(REQUEST_FILENAME) !-f
+RewriteCond %(REQUEST_FILENAME) !-d
+
+# Se não for alguma dessas extensões para download, sera redirecionado para o index.php
+RewriteRule !\.(css|js|icon|zip|rar|png|jpg|gif|pdf|eot|woff|woff2|ttf)$ index.php [L]
+
+# Adiciona o .phtml para diferenciar arquivos puramente php, para arquivos mistos php/html
+AddType application/x-httpd-php .php .phtml

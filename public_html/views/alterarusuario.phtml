@@ -1,0 +1,20 @@
+<?php 
+ if(isset($_GET['id']))
+{
+    ?>
+     <form action="alterar-usuarios" method="POST">
+         <input type="text" name="id_usuario" value="<?php echo $_GET['id'];?>" readonly="readonly" >
+         <br>
+         <select name="sltNivelUsuario" required>
+             <option></option>
+             <option value="0">Usuário Omni</option>
+             <option value="1" >Usuário Suporte </option>
+             <option value="2">Usuário Cliente</option>
+             <option value="-1">Desativar usuário</option> 
+         </select>
+         <br>
+         <input type="submit" value="Enviar" name="btnEnviar">
+     </form>
+     <?php 
+}
+?>
